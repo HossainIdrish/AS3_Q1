@@ -1,5 +1,4 @@
-
-    require([
+require([
       "esri/WebScene",
       "esri/views/SceneView",
       "esri/Camera",
@@ -14,15 +13,15 @@
       });*/
       var scene = new WebScene({
         portalItem:{
-         id:"8046207c1c214b5587230f5e5f8efc77" 
+         id:"fbbbaa2fbfda41b8b3f96427c3ac5c79" 
         }
       });
       
       var camera = new Camera({
         position: [
-          -71.060217,
-          42.382655,
-          2500// elevation in meters
+          -90.1952, // lon
+          38.6526, // lat
+          5000000// elevation in meters
         ],
         tilt:0,
         heading: 0
