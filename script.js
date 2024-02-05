@@ -1,4 +1,5 @@
-require([
+
+    require([
       "esri/WebScene",
       "esri/views/SceneView",
       "esri/Camera",
